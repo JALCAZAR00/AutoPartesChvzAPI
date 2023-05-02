@@ -6,7 +6,7 @@ const indexRouter = Router();
 const prefix = "/api";
 
 indexRouter.get(prefix, (req, res) => {
-    res.send("Welcome to PlanetScale API")
+    res.send("DB AutoPartes Chávez")
 });
 
 indexRouter.use(`${prefix}/productos`, productsRouter);
